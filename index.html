@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   
+</head>
+<body>
+     <button id="btn">Click me</button>
+    <script>
+          var x=5*15+85;
+          console.log(x)
+
+          let y = 30;
+          y=40;
+            console.log(y)
+            let name = "John";  // String
+            let age = 30;       // Number
+            let isActive = true; // Boolean
+            let person = { name: "John", age: 30 }; // Object
+
+            function add(a, b, c){
+                return a * b *c;
+            }
+            console.log(add(5,10,10)); //50
+        
+             let num=0;
+            if(num>0){
+                console.log("Musbat son");
+            }else{
+                console.log("manfiy son");
+            }
+
+            for(let i=1; i<=10; i++){
+                console.log(i)
+            }
+
+            document.getElementById("btn").addEventListener("click", function(){
+                alert("tugma bosildi")//alert tugmasi
+            })
+
+            let odam ={
+                name:"Asad",
+                yosh:17,
+                jins:"erkak",
+                manzil:"Surxondaryo",
+                tel:888088888,
+            }
+           
+
+                let yosh = prompt("Yoshingiz nechida?")
+                console.log(yosh)
+                let ism = prompt("Ismingiz nima?")
+                alert("Salom" + ism, "Yoshingiz" + yosh);
+                console.log(ism);
+               
+    </script>
+</body>
+</html>
